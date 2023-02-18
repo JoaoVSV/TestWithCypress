@@ -30,3 +30,6 @@ Cypress.Commands.add("fillMandatoryFileds", data =>{
     cy.get("#email").type(data.email);
     cy.get("#agree").check();
 });
+Cypress.Commands.add("verificando se aprece no git",()=>{
+    
+})
